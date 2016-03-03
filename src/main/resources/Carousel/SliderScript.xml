@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc>
+  <web>Carousel</web>
+  <name>SliderScript</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent/>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1279179769000</creationDate>
+  <date>1350311711000</date>
+  <contentUpdateDate>1350311711000</contentUpdateDate>
+  <version>1.1</version>
+  <title/>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/1.0</syntaxId>
+  <hidden>false</hidden>
+  <object>
+    <class>
+      <name>XWiki.JavaScriptExtension</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <cache>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>cache</name>
+        <number>5</number>
+        <prettyName>Caching policy</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>long|short|default|forbid</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </cache>
+      <code>
+        <disabled>0</disabled>
+        <name>code</name>
+        <number>2</number>
+        <prettyName>Code</prettyName>
+        <rows>20</rows>
+        <size>50</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </code>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+      <parse>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>parse</name>
+        <number>4</number>
+        <prettyName>Parse content</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </parse>
+      <use>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>use</name>
+        <number>3</number>
+        <prettyName>Use this extension</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </use>
+    </class>
+    <name>Carousel.SliderScript</name>
+    <number>0</number>
+    <className>XWiki.JavaScriptExtension</className>
+    <guid>4c016cfe-ef77-4b61-9ae3-2f04036aeb39</guid>
+    <property>
+      <cache>default</cache>
+    </property>
+    <property>
+      <code>/**
+ * @author Bruno Bornsztein &lt;bruno@missingmethod.com&gt;
+ * @copyright 2007 Curbly LLC
+ * @package Glider
+ * @license MIT
+ * @url http://www.missingmethod.com/projects/glider/
+ * @version 0.0.3
+ * @dependencies prototype.js 1.5.1+, effects.js
+ */
+
+/*  Thanks to Andrew Dupont for refactoring help and code cleanup - http://andrewdupont.net/  */
+
+Glider = Class.create();
+Object.extend(Object.extend(Glider.prototype, Abstract.prototype), {
+	initialize: function(wrapper, options){
+	    this.scrolling  = false;
+	    this.wrapper    = $(wrapper);
+	    this.scroller   = this.wrapper.down('div.scroller');
+	    this.sections   = this.wrapper.getElementsBySelector('div.section');
+	    this.options    = Object.extend({ duration: 1.0, frequency: 3 }, options || {});
+
+	    this.sections.each( function(section, index) {
+	      section._index = index;
+	    });    
+
+	    this.events = {
+	      click: this.click.bind(this)
+	    };
+
+	    this.addObservers();
+			if(this.options.initialSection) this.moveTo(this.options.initialSection, this.scroller, { duration:this.options.duration });  // initialSection should be the id of the section you want to show up on load
+			if(this.options.autoGlide) this.start();
+	  },
+	
+  addObservers: function() {
+    var controls = this.wrapper.getElementsBySelector('div.controls a');
+    controls.invoke('observe', 'click', this.events.click);
+  },	
+
+  click: function(event) {
+		this.stop();
+    var element = Event.findElement(event, 'a');
+    if (this.scrolling) this.scrolling.cancel();
+    
+    this.moveTo(element.href.split("#")[1], this.scroller, { duration:this.options.duration });     
+    Event.stop(event);
+  },
+
+	moveTo: function(element, container, options){
+			this.current = $(element);
+
+			Position.prepare();
+	    var containerOffset = Position.cumulativeOffset(container),
+	     elementOffset = Position.cumulativeOffset($(element));
+
+		  this.scrolling 	= new Effect.SmoothScroll(container, 
+				{duration:options.duration, x:(elementOffset[0]-containerOffset[0]), y:(elementOffset[1]-containerOffset[1])});
+		  return false;
+		},
+		
+  next: function(){
+    if (this.current) {
+      var currentIndex = this.current._index;
+      var nextIndex = (this.sections.length - 1 == currentIndex) ? 0 : currentIndex + 1;      
+    } else var nextIndex = 1;
+
+    this.moveTo(this.sections[nextIndex], this.scroller, { 
+      duration: this.options.duration
+    });
+  },
+	
+  previous: function(){
+    if (this.current) {
+      var currentIndex = this.current._index;
+      var prevIndex = (currentIndex == 0) ? this.sections.length - 1 : 
+       currentIndex - 1;
+    } else var prevIndex = this.sections.length - 1;
+    
+    this.moveTo(this.sections[prevIndex], this.scroller, { 
+      duration: this.options.duration
+    });
+  },
+
+	stop: function()
+	{
+		clearTimeout(this.timer);
+	},
+	
+	start: function()
+	{
+		this.periodicallyUpdate();
+	},
+		
+	periodicallyUpdate: function()
+	{ 
+		if (this.timer != null) {
+			clearTimeout(this.timer);
+			this.next();
+		}
+		this.timer = setTimeout(this.periodicallyUpdate.bind(this), this.options.frequency*1000);
+	}
+
+});
+
+Effect.SmoothScroll = Class.create();
+Object.extend(Object.extend(Effect.SmoothScroll.prototype, Effect.Base.prototype), {
+  initialize: function(element) {
+    this.element = $(element);
+    var options = Object.extend({
+      x:    0,
+      y:    0,
+      mode: 'absolute'
+    } , arguments[1] || {}  );
+    this.start(options);
+  },
+  setup: function() {
+    if (this.options.continuous &amp;&amp; !this.element._ext ) {
+      this.element.cleanWhitespace();
+      this.element._ext=true;
+      this.element.appendChild(this.element.firstChild);
+    }
+   
+    this.originalLeft=this.element.scrollLeft;
+    this.originalTop=this.element.scrollTop;
+   
+    if(this.options.mode == 'absolute') {
+      this.options.x -= this.originalLeft;
+      this.options.y -= this.originalTop;
+    } 
+  },
+  update: function(position) {   
+    this.element.scrollLeft = this.options.x * position + this.originalLeft;
+    this.element.scrollTop  = this.options.y * position + this.originalTop;
+  }
+});</code>
+    </property>
+    <property>
+      <name>Carousel script</name>
+    </property>
+    <property>
+      <parse/>
+    </property>
+    <property>
+      <use>onDemand</use>
+    </property>
+  </object>
+  <content>
+</content>
+</xwikidoc>

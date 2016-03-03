@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc>
+  <web>XWiki</web>
+  <name>LeiothrixSkinConfig</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent/>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1350377480000</creationDate>
+  <date>1351006546000</date>
+  <contentUpdateDate>1351006546000</contentUpdateDate>
+  <version>1.1</version>
+  <title/>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>false</hidden>
+  <object>
+    <class>
+      <name>XWiki.ConfigurableClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <codeToExecute>
+        <disabled>0</disabled>
+        <editor>---</editor>
+        <name>codeToExecute</name>
+        <number>7</number>
+        <picker>0</picker>
+        <prettyName>codeToExecute</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </codeToExecute>
+      <configurationClass>
+        <disabled>0</disabled>
+        <name>configurationClass</name>
+        <number>3</number>
+        <picker>0</picker>
+        <prettyName>configurationClass</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </configurationClass>
+      <configureGlobally>
+        <defaultValue/>
+        <disabled>0</disabled>
+        <displayFormType>checkbox</displayFormType>
+        <displayType/>
+        <name>configureGlobally</name>
+        <number>4</number>
+        <prettyName>configureGlobally</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </configureGlobally>
+      <displayInSection>
+        <disabled>0</disabled>
+        <name>displayInSection</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>displayInSection</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </displayInSection>
+      <heading>
+        <disabled>0</disabled>
+        <name>heading</name>
+        <number>2</number>
+        <picker>0</picker>
+        <prettyName>heading</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </heading>
+      <iconAttachment>
+        <disabled>0</disabled>
+        <name>iconAttachment</name>
+        <number>8</number>
+        <picker>0</picker>
+        <prettyName>iconAttachment</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </iconAttachment>
+      <linkPrefix>
+        <disabled>0</disabled>
+        <name>linkPrefix</name>
+        <number>5</number>
+        <picker>0</picker>
+        <prettyName>linkPrefix</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </linkPrefix>
+      <propertiesToShow>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>input</displayType>
+        <multiSelect>1</multiSelect>
+        <name>propertiesToShow</name>
+        <number>6</number>
+        <picker>0</picker>
+        <prettyName>propertiesToShow</prettyName>
+        <relationalStorage>1</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>20</size>
+        <sort>none</sort>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <values/>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </propertiesToShow>
+    </class>
+    <name>XWiki.LeiothrixSkinConfig</name>
+    <number>0</number>
+    <className>XWiki.ConfigurableClass</className>
+    <guid>02fa0fe1-e845-46d6-a0ed-6c6a55db1e12</guid>
+    <property>
+      <codeToExecute/>
+    </property>
+    <property>
+      <configurationClass>XWiki.LeiothrixSkinConfigClass</configurationClass>
+    </property>
+    <property>
+      <configureGlobally>1</configureGlobally>
+    </property>
+    <property>
+      <displayInSection>Leiothrix Skin Config</displayInSection>
+    </property>
+    <property>
+      <heading>Leiothrix Skin Config</heading>
+    </property>
+    <property>
+      <iconAttachment/>
+    </property>
+    <property>
+      <linkPrefix/>
+    </property>
+    <property>
+      <propertiesToShow/>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.LeiothrixSkinConfigClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <facebookDisplay>
+        <customDisplay/>
+        <defaultValue/>
+        <disabled>0</disabled>
+        <displayFormType>checkbox</displayFormType>
+        <displayType/>
+        <name>facebookDisplay</name>
+        <number>4</number>
+        <prettyName>Display Facebook button</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </facebookDisplay>
+      <facebookLink>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>facebookLink</name>
+        <number>3</number>
+        <picker>0</picker>
+        <prettyName>Facebook link for social buttons</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </facebookLink>
+      <googleDisplay>
+        <customDisplay/>
+        <defaultValue/>
+        <disabled>0</disabled>
+        <displayFormType>checkbox</displayFormType>
+        <displayType/>
+        <name>googleDisplay</name>
+        <number>8</number>
+        <prettyName>Display Google+ button</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </googleDisplay>
+      <googleLink>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>googleLink</name>
+        <number>7</number>
+        <picker>0</picker>
+        <prettyName>Google link for social buttons</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </googleLink>
+      <menuConfig>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>menuConfig</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>Menu configuration</prettyName>
+        <rows>10</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </menuConfig>
+      <socialButtons>
+        <customDisplay/>
+        <defaultValue/>
+        <disabled>0</disabled>
+        <displayFormType>checkbox</displayFormType>
+        <displayType/>
+        <name>socialButtons</name>
+        <number>2</number>
+        <prettyName>Display the social buttons (Facebook, Twitter and Google+)</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </socialButtons>
+      <twitterDisplay>
+        <customDisplay/>
+        <defaultValue/>
+        <disabled>0</disabled>
+        <displayFormType>checkbox</displayFormType>
+        <displayType/>
+        <name>twitterDisplay</name>
+        <number>6</number>
+        <prettyName>Display Twitter button</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </twitterDisplay>
+      <twitterLink>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>twitterLink</name>
+        <number>5</number>
+        <picker>0</picker>
+        <prettyName>Twitter link for social buttons</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </twitterLink>
+    </class>
+    <name>XWiki.LeiothrixSkinConfig</name>
+    <number>0</number>
+    <className>XWiki.LeiothrixSkinConfigClass</className>
+    <guid>41b5df0e-3fa7-4098-b2c0-66a6e12964e6</guid>
+    <property>
+      <facebookDisplay>1</facebookDisplay>
+    </property>
+    <property>
+      <facebookLink>https://www.facebook.com/xwiki</facebookLink>
+    </property>
+    <property>
+      <googleDisplay>1</googleDisplay>
+    </property>
+    <property>
+      <googleLink>http://www.google.com</googleLink>
+    </property>
+    <property>
+      <menuConfig>##This is how to configure the menu ##Add a new line to the table, don't forget the coma, only the last line does not have one ##[Space,Document,Translation Key] ##Don't forget to update the translations file to add the new translation key : XWiki.LeiothrixTranslations
+#set($menuList = [ ['Main','WebHome','main'], ['Product','WebHome','product'], ['Offer','WebHome','offer'], ['Solutions','WebHome','solutions'], ['Partners','WebHome','partners'], ['About us','WebHome','aboutus'] ])</menuConfig>
+    </property>
+    <property>
+      <socialButtons>1</socialButtons>
+    </property>
+    <property>
+      <twitterDisplay>1</twitterDisplay>
+    </property>
+    <property>
+      <twitterLink>https://twitter.com/XWiki</twitterLink>
+    </property>
+  </object>
+  <content/>
+</xwikidoc>

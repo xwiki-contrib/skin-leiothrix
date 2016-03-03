@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc>
+  <web>MenuCode</web>
+  <name>MenuWikiMacro</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent/>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1349943136000</creationDate>
+  <date>1351006563000</date>
+  <contentUpdateDate>1351006563000</contentUpdateDate>
+  <version>1.1</version>
+  <title/>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <attachment>
+    <filename>google.png</filename>
+    <filesize>2771</filesize>
+    <author>XWiki.Admin</author>
+    <date>1350551436000</date>
+    <version>1.2</version>
+    <comment/>
+    <content>iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOkIwOEVENEVEMDlERjExRTE4MjlDREI0NzJCMDI4QkVGIiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOkIwOEVENEVFMDlERjExRTE4MjlDREI0NzJCMDI4QkVGIj4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QjA4RUQ0RUIwOURGMTFFMTgyOUNE
+QjQ3MkIwMjhCRUYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QjA4RUQ0RUMwOURGMTFFMTgy
+OUNEQjQ3MkIwMjhCRUYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz6ARoNJAAAHSUlEQVR42qxXeYzdVRX+fttbZt6bpTPTeW9m
+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
+</content>
+  </attachment>
+  <attachment>
+    <filename>twitter.png</filename>
+    <filesize>4151</filesize>
+    <author>XWiki.Admin</author>
+    <date>1350551436000</date>
+    <version>1.2</version>
+    <comment/>
+    <content>iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAK
+T2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AU
+kSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXX
+Pues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgAB
+eNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAt
+AGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3
+AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dX
+Lh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+
+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk
+5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd
+0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA
+4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzA
+BhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/ph
+CJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5
+h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+
+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhM
+WE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQ
+AkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+Io
+UspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdp
+r+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZ
+D5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61Mb
+U2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY
+/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllir
+SKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79u
+p+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6Vh
+lWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1
+mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lO
+k06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7Ry
+FDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3I
+veRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+B
+Z7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/
+0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5p
+DoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5q
+PNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIs
+OpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5
+hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQ
+rAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9
+rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1d
+T1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aX
+Dm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7
+vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3S
+PVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKa
+RptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO
+32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21
+e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfV
+P1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i
+/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8
+IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADq
+YAAAOpgAABdvkl/FRgAABWJJREFUeNqsl0tsZFcRhr8659y+7m7P2PFkhhk0IThYIxQUkbAIgRVE
+AoHEIgjCY02QELAFNmzYIJbsEAgkQIKEZVbZRMpmhFhhSEaIEIY8Ztyeie1uP/rh+zhVLE673W23
+o2SSIx217tWp+m/99VedatnodABwCF741KH4p0vcZwxagPH+lgiUGbbetPgXw67XllzKRqeDA6fi
+fn7LtX+0Se4i8r4Rp5cHLlLyoPafzaz+riID2djoYCK/eMUt/WTLMsIUpAAKREuhC+AF3D1QUSOc
+l8ijuvd8w+qnpHP79qP/defXX6NFhs6A1gYNBxczoe2FYYTtSjlUCHJv4Jcp+aT2ng5Dc99+03LE
+9BhWEuhyED6/4lnJZGK8Vzte6ka6leHlvYZubEvGwPwP3VDliUIFtQRWG1Sa8vLkGLRfG5sjY78y
+loLw5IrHkc7V9u63GoxU2LVwOahZU232syuDDy047suEg8p4Y5C42DqEqy3HSi5cXRD+01cy997o
+1uQ/BDM1PUGXKuRjh73SKCJ4l97vlMZKLiwFYRSZUsWxNryk37OAzdSCqmEnTpmlzVhgpYHXpO56
+jLQUhNWWIzthW6rRq2wiwNNZFlRJ1eMQ1Gyik5PARTTCWHAxpPfX2o5r7fk89yrjxa2aO4WdAneS
+4MOgVrZVuS8T/LRIp4EN4viDdmvjZl8ntJ44znJDuNAQvnQp8OxGRa3H1CuwVRq9GAllVF4dKIte
+uJgLy5ngxnkCqNUooxHHz0UJO0U8o1hSc3lk2bPadjy86Pn7bqQEditjuzC6NVzLjeDMWBAoo7Ex
+NO66ZHy1mZBGEQY15P5swUyvocIru5HVtuNcgFcPIhGImuwXnMNjBDBySbwd9YPDCN0ikXenUP51
+EDmXCQ2X6lsnuUr0x3Gdlgr92njiggdgY6QU0Wh5QcZyqACHETCb1KJMURaODirs10ahhgJNL1zK
+Zeb6CQIByBx8/LznK1cySoP1XmQxyCmBiTEGFpkBVoEwfkqRGE6EQuGhtvD9j+XvSHeh8HynYqeE
+ppNTlS5nRaxyLK7SYKRgkhyWY/l2RspbQyWIzDSHbmnc2ItsF0Z7ji4EEHsXVBdmDMxQS8Dj1HN7
+ZFzfrsn9rOsywn5l5H5+AxFAaiNgSnaixZkkER1RPdBkURh0q4T8+Irn8RU/l+rXB8oLmxXd8nQD
+STq21LkykVlKJOUV4MGWY6hJRAa83Fd++XrJJ8455t2Kq03HWtvxjQca/PGNkmipPI87l4zFRaJa
+TrS1QZ1y9tiSJ3jYV5tc/s9tVrA5/wLIBH66lvPli4FHljz/3I0zN5iTFLHDjIYkg6O94GBQGf/e
+i1zJhW9eaXCnNA70WGjztggcKPz6VgnAR9tuxu/Rnqg6uPnj4Xovstr2PPNARq82/tCpGEYjc3Jm
+F+tH43OtMO56yXeYE3EwU8nktJtMYBjhxbsVX7yc8ePVBl+43/OrWxVvHSqVnb4k1GCt5fnZWgMD
+bvaVBSdMC1+TWCRgVqVaPD08BYGdwnihU/Hp+z2PnfP85uGk5Dhv1pqqhn/0InuFTQaK44oRnKkG
+F6v1huhnTfxc8IwU+Ut3IysN5SNtx4Vc5tYoQL8yXusrbx8azbmHIo1ysBN8Ofxze9j9wWjpMhLr
+uc6O7Pcr4+VexMk7zZEpBfkc3ZjzNEZ7+HL4+xCVv7W6bz5nzcVvab4IGo/Hjzl5v+c/Ms4j1SHt
+rf/91WL8bTBBqYvvNDduLFSX1p6y1jIWAh/kEo0w3KXx9s3rrux/TcWPJyhxQ6nKrzZu3/i6NVrf
+Y2Hxw+Z89kFgimmkGNyVYvAn4HfmfA3w/wEAcUjaiQAqnLYAAAAASUVORK5CYII=
+</content>
+  </attachment>
+  <attachment>
+    <filename>facebook.png</filename>
+    <filesize>4000</filesize>
+    <author>XWiki.Admin</author>
+    <date>1350551436000</date>
+    <version>1.2</version>
+    <comment/>
+    <content>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
+AABJRU5ErkJggg==
+</content>
+  </attachment>
+  <object>
+    <class>
+      <name>XWiki.JavaScriptExtension</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <cache>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>cache</name>
+        <number>5</number>
+        <prettyName>Caching policy</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>long|short|default|forbid</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </cache>
+      <code>
+        <disabled>0</disabled>
+        <name>code</name>
+        <number>2</number>
+        <prettyName>Code</prettyName>
+        <rows>20</rows>
+        <size>50</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </code>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+      <parse>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>parse</name>
+        <number>4</number>
+        <prettyName>Parse content</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </parse>
+      <use>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>use</name>
+        <number>3</number>
+        <prettyName>Use this extension</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </use>
+    </class>
+    <name>MenuCode.MenuWikiMacro</name>
+    <number>0</number>
+    <className>XWiki.JavaScriptExtension</className>
+    <guid>b2bca3f5-dc3c-4a08-823e-3b8749975392</guid>
+    <property>
+      <cache>long</cache>
+    </property>
+    <property>
+      <code>  var NavigationMenu = Class.create({    
+    initialize: function(id){
+      var customMenuDiv = $(id);       
+      if(customMenuDiv.hasClassName('menu-type-horizontal')) {
+        $('headerglobal').insert({bottom: customMenuDiv});
+      } else {
+        if(customMenuDiv.hasClassName('menu-position-left')) {
+          $('leftPanels').insert({top: customMenuDiv});
+        } else {
+          $('rightPanels').insert({top: customMenuDiv});
+        }
+      }
+      customMenuDiv.select('li').each(function(item) {
+        var children = item.childElements();        
+        var subMenuPositionTopInit = null;
+        var subMenuPositionLeftInit = null;
+        if(children.size() &gt; 1) {
+          children[1].hide();
+          if(!customMenuDiv.hasClassName('menu-type-horizontal')) {
+            subMenuPositionTopInit = children[1].style.top;
+            subMenuPositionLeftInit = children[1].style.left;
+            children[1].style.zIndex = '9999999999';            
+          }
+        }
+        item.observe('mouseout', function(){ 
+          if(children.size() &gt; 1) {
+            if(subMenuPositionTopInit != null) {
+              children[1].style.top = subMenuPositionTopInit;
+            }
+            if(subMenuPositionLeftInit != null) {
+              children[1].style.left = subMenuPositionLeftInit; 
+            }
+            children[1].hide();
+          }
+        })
+        item.observe('mouseover', function(){ 
+          if(children.size() &gt; 1) {
+            children[1].show();
+            children[1].absolutize();
+            if(!customMenuDiv.hasClassName('menu-type-horizontal') &amp;&amp; children[1].offsetTop != 0) {
+              children[1].style.left = customMenuDiv.offsetWidth + 'px';
+              if(!customMenuDiv.hasClassName('menu-position-left')) { 
+                children[1].style.left = '-' + children[1].style.left;
+              }              
+              children[1].style.top = (children[1].offsetTop - children[0].offsetHeight) + 'px';              
+            }
+          }
+        });
+      });
+    }
+  }); </code>
+    </property>
+    <property>
+      <name>menujsx</name>
+    </property>
+    <property>
+      <parse>0</parse>
+    </property>
+    <property>
+      <use>onDemand</use>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.StyleSheetExtension</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <cache>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>cache</name>
+        <number>5</number>
+        <prettyName>Caching policy</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>long|short|default|forbid</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </cache>
+      <code>
+        <disabled>0</disabled>
+        <name>code</name>
+        <number>2</number>
+        <prettyName>Code</prettyName>
+        <rows>20</rows>
+        <size>50</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </code>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+      <parse>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>parse</name>
+        <number>4</number>
+        <prettyName>Parse content</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </parse>
+      <use>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>use</name>
+        <number>3</number>
+        <prettyName>Use this extension</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </use>
+    </class>
+    <name>MenuCode.MenuWikiMacro</name>
+    <number>0</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>cc908acc-18fd-43cf-a026-32bce56f27ad</guid>
+    <property>
+      <cache>long</cache>
+    </property>
+    <property>
+      <code>#template('colorThemeInit.vm')
+.menu-type-horizontal {  
+  height: 36px;
+  background-color: $theme.menuBackgroundColor;
+}
+
+.menu-type-horizontal ul {
+  list-style-type: none;
+  margin: auto;
+}
+
+.menu-type-vertical ul {
+  list-style-type: none;
+  margin: auto;
+}
+
+.menu-type-horizontal ul li {
+  display: block; 
+  float: left;
+  background-color: $theme.menuBackgroundColor;
+  position: relative;
+}
+
+.menu-type-horizontal ul li ul li {
+  float: none;
+}
+
+.menu-type-horizontal a {
+  display: block;
+  padding: 10px 15px;  
+  font-size: 0.9em;
+}
+
+.menu-type-vertical a {
+  display: block;
+  padding: 10px 15px;  
+  font-size: 0.9em;
+}
+
+
+.menu-type-horizontal a {
+  color: $theme.menuLinkColor;
+}
+
+.menu-type-vertical ul li ul {
+  position: relative;
+}
+
+.menu-type-horizontal ul li ul {
+  display: block;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+}
+
+.menu-type-horizontal ul li ul li {
+  display: block; 
+  top: 0;
+  left: 0;
+}
+
+.menu-type-vertical ul li ul li {
+  display: block;  
+}
+
+.menu-type-vertical {
+  position: relative;
+}
+
+.menu-type-vertical ul li ul {
+  background-color: $theme.menuBackgroundColor;
+}
+
+.menu-type-vertical ul li ul li {
+  background-color: $theme.menuBackgroundColor;
+}
+
+.menu-type-vertical a {
+  color: $theme.menuLinkColor;
+}
+
+.menu-type-vertical ul li ul li a {
+  color: $theme.menuLinkColor;
+}
+
+.menu-type-vertical ul li {
+  display: block;
+  background-color: $theme.menuBackgroundColor;
+  margin-bottom: 1px;
+}
+
+.menu-type-vertical ul li ul {
+  margin:0;
+}</code>
+    </property>
+    <property>
+      <name>menussx</name>
+    </property>
+    <property>
+      <parse>1</parse>
+    </property>
+    <property>
+      <use>onDemand</use>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.WikiMacroClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <code>
+        <disabled>0</disabled>
+        <name>code</name>
+        <number>9</number>
+        <prettyName>Macro code</prettyName>
+        <rows>20</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </code>
+      <contentDescription>
+        <disabled>0</disabled>
+        <name>contentDescription</name>
+        <number>8</number>
+        <prettyName>Content description (Not applicable for "No content" type)</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </contentDescription>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>7</number>
+        <prettyName>Macro content type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator>|</separator>
+        <separators>|</separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>Optional|Mandatory|No content</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
+      <defaultCategory>
+        <disabled>0</disabled>
+        <name>defaultCategory</name>
+        <number>4</number>
+        <prettyName>Default category</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </defaultCategory>
+      <description>
+        <disabled>0</disabled>
+        <name>description</name>
+        <number>3</number>
+        <prettyName>Macro description</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </description>
+      <id>
+        <disabled>0</disabled>
+        <name>id</name>
+        <number>1</number>
+        <prettyName>Macro id</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </id>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>2</number>
+        <prettyName>Macro name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+      <supportsInlineMode>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>supportsInlineMode</name>
+        <number>5</number>
+        <prettyName>Supports inline mode</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </supportsInlineMode>
+      <visibility>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>visibility</name>
+        <number>6</number>
+        <prettyName>Macro visibility</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator>|</separator>
+        <separators>|</separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>Current User|Current Wiki|Global</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </visibility>
+    </class>
+    <name>MenuCode.MenuWikiMacro</name>
+    <number>0</number>
+    <className>XWiki.WikiMacroClass</className>
+    <guid>a8f17db6-0b65-4336-a279-66f4fe0b3c6d</guid>
+    <property>
+      <code>{{velocity}}
+  #set($menuId = $xcontext.macro.params.id)
+  #if("$!menuId" == "")
+    #set($menuId = "navigation-menu")
+  #end
+  #set($menuType = $xcontext.macro.params.type)
+  #set($menuPosition = $xcontext.macro.params.position)
+  #if("$!menuPosition" == "")
+    #set($menuPosition = "left")
+  #end
+  #if("$!menuPosition" == "left")
+    #set($cssPositionClass = "")
+  #end
+  (% id="$!menuId" class="#if("$!menuType" == "vertical") panel #end menu-type-$!menuType menu-position-$!{menuPosition}"  %)(((
+    $xcontext.macro.content
+  )))
+#set($discard = $xwiki.jsx.use("$xcontext.macro.doc.prefixedFullName", {'minify': false}))
+#set($discard = $xwiki.ssx.use("$xcontext.macro.doc.prefixedFullName", {'minify': false}))
+##{{html clean="false"}}
+##&lt;script type="text/javascript"&gt;
+##  document.observe("xwiki:dom:loaded", function(){
+##    new NavigationMenu("$menuId");
+##  })
+##&lt;/script&gt;
+##{{/html}}
+{{/velocity}}</code>
+    </property>
+    <property>
+      <contentDescription/>
+    </property>
+    <property>
+      <contentType>Mandatory</contentType>
+    </property>
+    <property>
+      <defaultCategory>Navigation</defaultCategory>
+    </property>
+    <property>
+      <description>This wiki macro uses xwiki syntax to create the structure of the menu and using javascript injects the menu in banner area, right panels or left panels</description>
+    </property>
+    <property>
+      <id>menu</id>
+    </property>
+    <property>
+      <name>menu</name>
+    </property>
+    <property>
+      <supportsInlineMode>0</supportsInlineMode>
+    </property>
+    <property>
+      <visibility>Global</visibility>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.WikiMacroParameterClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <defaultValue>
+        <disabled>0</disabled>
+        <name>defaultValue</name>
+        <number>4</number>
+        <prettyName>Parameter default value</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </defaultValue>
+      <description>
+        <disabled>0</disabled>
+        <name>description</name>
+        <number>2</number>
+        <prettyName>Parameter description</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </description>
+      <mandatory>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>mandatory</name>
+        <number>3</number>
+        <prettyName>Parameter mandatory</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </mandatory>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Parameter name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+    </class>
+    <name>MenuCode.MenuWikiMacro</name>
+    <number>0</number>
+    <className>XWiki.WikiMacroParameterClass</className>
+    <guid>12336e15-4be2-485c-a727-40c8882d7aed</guid>
+    <property>
+      <defaultValue>horizontal</defaultValue>
+    </property>
+    <property>
+      <description>The type of the menu (horizontal || vertical)</description>
+    </property>
+    <property>
+      <mandatory>1</mandatory>
+    </property>
+    <property>
+      <name>type</name>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.WikiMacroParameterClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <defaultValue>
+        <disabled>0</disabled>
+        <name>defaultValue</name>
+        <number>4</number>
+        <prettyName>Parameter default value</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </defaultValue>
+      <description>
+        <disabled>0</disabled>
+        <name>description</name>
+        <number>2</number>
+        <prettyName>Parameter description</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </description>
+      <mandatory>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>mandatory</name>
+        <number>3</number>
+        <prettyName>Parameter mandatory</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </mandatory>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Parameter name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+    </class>
+    <name>MenuCode.MenuWikiMacro</name>
+    <number>1</number>
+    <className>XWiki.WikiMacroParameterClass</className>
+    <guid>30fe23bb-f051-44fe-a59a-f01155958a72</guid>
+    <property>
+      <defaultValue/>
+    </property>
+    <property>
+      <description>Options: top | left | right</description>
+    </property>
+    <property>
+      <mandatory>0</mandatory>
+    </property>
+    <property>
+      <name>position</name>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.WikiMacroParameterClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <defaultValue>
+        <disabled>0</disabled>
+        <name>defaultValue</name>
+        <number>4</number>
+        <prettyName>Parameter default value</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </defaultValue>
+      <description>
+        <disabled>0</disabled>
+        <name>description</name>
+        <number>2</number>
+        <prettyName>Parameter description</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </description>
+      <mandatory>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>mandatory</name>
+        <number>3</number>
+        <prettyName>Parameter mandatory</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </mandatory>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Parameter name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+    </class>
+    <name>MenuCode.MenuWikiMacro</name>
+    <number>2</number>
+    <className>XWiki.WikiMacroParameterClass</className>
+    <guid>b7e3161e-166f-4ab2-8f72-f003a69f1144</guid>
+    <property>
+      <defaultValue/>
+    </property>
+    <property>
+      <description>div id for multiple menus</description>
+    </property>
+    <property>
+      <mandatory>0</mandatory>
+    </property>
+    <property>
+      <name>id</name>
+    </property>
+  </object>
+  <content>{{velocity}}
+#set($hql = ", BaseObject as obj WHERE doc.fullName = obj.name AND doc.fullName = 'XWiki.LeiothrixSkinConfig' AND obj.className = 'XWiki.LeiothrixSkinConfigClass'")
+#foreach($item in $xwiki.searchDocuments($hql))
+ #set($itemdoc = $xwiki.getDocument($item))
+ #set($itemobj = $itemdoc.getObject('XWiki.LeiothrixSkinConfigClass'))
+ ##
+ ##Social buttonsconfiguration - START
+ ##
+ ###Display buttons bar
+ #set($socialButtons = $itemobj.getProperty('socialButtons').value)
+ ##
+ ###Display Facebook button
+ #set($facebookDisplay = $itemobj.getProperty('facebookDisplay').value)
+ #if($facebookDisplay  == 1)
+  #set($facebookSocialButtons = $itemobj.getProperty('facebookLink').value)
+  #if("$!facebookSocialButtons" == '')
+   #set($facebookDisplay = 0)
+  #end
+ #end
+ ##
+ ###Display Twitter button
+ #set($twitterDisplay = $itemobj.getProperty('twitterDisplay').value)
+ #if($twitterDisplay == 1)
+  #set($twitterSocialButtons = $itemobj.getProperty('twitterLink').value)
+  #if("$!twitterSocialButtons" == '')
+   #set($twitterDisplay = 0)
+  #end
+ #end
+ ##
+ ###Display Google+ button
+ #set($googleDisplay = $itemobj.getProperty('googleDisplay').value)
+ #if($googleDisplay == 1)
+  #set($googleSocialButtons = $itemobj.getProperty('googleLink').value)
+  #if("$!googleSocialButtons" == '')
+   #set($googleDisplay = 0)
+  #end
+ #end
+ ##
+ ##Social buttonsconfiguration - END
+ ##
+#end
+     
+{{html clean=false}}&lt;div id="mainMenuContainer"&gt;{{/html}}
+     
+{{menu type="horizontal" position="left" id="mainMenu"}}
+$xwiki.renderText($itemobj.getProperty('menuConfig').value, $doc)
+#foreach($menuItem in $menuList)
+ #set($menuURL = $services.model.serialize($services.model.createDocumentReference($xcontext.database, $menuItem[0], $menuItem[1])))
+ * [[$msg.get("PublicSite.menu_${menuItem[2]}")&gt;&gt;$menuURL||class="mainMenu${escapetool.xml($menuItem[0].replaceAll(' ', '_'))}"]]
+#end
+     
+#if($socialButtons  == 1) 
+ (%class="mainMenuSocial"%)
+ #if($facebookDisplay == 1)
+  * [[image:MenuCode.MenuWikiMacro@facebook.png&gt;&gt;$facebookSocialButtons||rel="_blank"]]
+ #end
+ #if($twitterDisplay == 1)
+  * [[image:MenuCode.MenuWikiMacro@twitter.png&gt;&gt;$twitterSocialButtons ||rel="_blank"]]
+ #end
+ #if($googleDisplay == 1)
+  * [[image:MenuCode.MenuWikiMacro@google.png&gt;&gt;$googleSocialButtons||rel="_blank"]]
+ #end
+#end
+{{/menu}}
+     
+{{html clean=false}}&lt;/div&gt;{{/html}}
+{{/velocity}}</content>
+</xwikidoc>

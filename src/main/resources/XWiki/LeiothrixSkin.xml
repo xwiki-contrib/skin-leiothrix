@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc>
+  <web>XWiki</web>
+  <name>LeiothrixSkin</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent/>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1350378805000</creationDate>
+  <date>1351006290000</date>
+  <contentUpdateDate>1351006290000</contentUpdateDate>
+  <version>1.1</version>
+  <title/>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>false</hidden>
+  <attachment>
+    <filename>active.png</filename>
+    <filesize>1009</filesize>
+    <author>XWiki.Admin</author>
+    <date>1350654789000</date>
+    <version>1.5</version>
+    <comment/>
+    <content>iVBORw0KGgoAAAANSUhEUgAAAA8AAAAGCAYAAAAc2cSCAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOjEwMTBBRUJDMTNEQzExRTJCRkRFOERCQkNBMkExN0MyIiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOjEwMTBBRUJEMTNEQzExRTJCRkRFOERCQkNBMkExN0MyIj4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MTAxMEFFQkExM0RDMTFFMkJGREU4
+REJCQ0EyQTE3QzIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MTAxMEFFQkIxM0RDMTFFMkJG
+REU4REJCQ0EyQTE3QzIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz5lkijDAAAAZ0lEQVR42mL4//8/Aw7sC8TboTRWNdgEWYE4
+A4g//IcAEJ0JFcerWQiI+4D4x39U8BOI+6HyWDVrAPGu//jBLqg6FM1eQHz7P3HgNlQ9AyOQiGNg
+YGgFYkkg/sJAGPAA8XMgrgYIMABpzwXD+Ay+rQAAAABJRU5ErkJggg==
+</content>
+  </attachment>
+  <attachment>
+    <filename>de.png</filename>
+    <filesize>545</filesize>
+    <author>XWiki.Admin</author>
+    <date>1350654789000</date>
+    <version>1.2</version>
+    <comment/>
+    <content>iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVHjaYvTxcWb4+53h3z8GZpZff/79
++v3n/7/fDAz/GHAAgABi+f37e3FxOZD1Dwz+/v3z9y+E/AMFv3//+Qumfv9et241QACxMDExAVWf
+OHkJJAEW/gUEP0EQDn78+AHE/gFOQJUAAcQiy8Ag8O+fLFj1n1+/QDp+/gQioK7fP378+vkDqOH3
+9x9A/RJ/gE5lAAhAYhzcAACCQBDkgRXRjP034R0IaDTZTFZn0DItot37S94KLOINerEcI7aKHAHE
+8v/3r/9//zIA1f36/R+o4tevf1ANYNVA9P07RD9IJQMDQACxADHD3z8Ig4GMHz+AqqHagKp//fwL
+VA0U//v7LwMDQACx/LZiYFD7/5/53/+///79BqK/EMZ/UPACSYa/v/8DyX9A0oTxx2EGgABi+a/H
+8F/m339BoCoQ+g8kgRaCQvgPJJiBYmAuw39hxn+uDAABxMLwi+E/0PusRkwMvxhBGoDkH4b/v/+D
+2EDyz///QB1/QLb8+sP0lQEggFh+vGXYM2/SP6A2Zoaf30Ex/J+PgekHwz9gQDAz/P0FYrAyMfz7
+wcDAzPDtFwNAgAEAd3SIyRitX1gAAAAASUVORK5CYII=
+</content>
+  </attachment>
+  <attachment>
+    <filename>en.png</filename>
+    <filesize>599</filesize>
+    <author>XWiki.Admin</author>
+    <date>1351006290000</date>
+    <version>1.3</version>
+    <comment/>
+    <content>iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAflJREFUeNpinDRzn5qN3uFDt16+YWBg+Pv339+KGN0rbVP+//2rW5tf
+0Hfy/2+mr99+yKpyOl3Ydt8njEWIn8f9zj639NC7j78eP//8739GVUUhNUNuhl8//ysKeZrJ/v7z
+10Zb2PTQTIY1XZO2Xmfad+f7XgkXxuUrVB6cjPVXef78JyMjA8PFuwyX7gAZj97+T2e9o3d4BWNp
+84K1NzubTjAB3fH0+fv6N3qP/ir9bW6ozNQCijB8/8zw/TuQ7r4/ndvN5mZgkpPXiis3Pv34+ZPh
+5t23//79Rwehof/9/NDEgMrOXHvJcrllgpoRN8PFOwy/fzP8+gUlgZI/f/5xcPj/69e/37//AUX+
+/mXRkN555gsOG2xt/5hZQMwF4r9///75++f3nz8nr75gSms82jfvQnT6zqvXPjC8e/srJQHo9P9f
+vwNtAHmG4f8zZ6dDc3bIyM2LTNlsbtfM9OPHH3FhtqUz3eXX9H+cOy9ZMB2o6t/Pn0DHMPz/b+2w
+XGTvPlPGFxdcD+mZyjP8+8MUE6sa7a/xo6Pykn1s4zdzIZ6///8zMGpKM2pKAB0jqy4UE7/msKat
+6Jw5mafrsxNtWZ6/fjvNLW29qv25pQd///n+5+/fxDDVbcc//P/zx/36m5Ub9zL8+7t66yEROcHK
+7q5bldMBAgwADcRBCuVLfoEAAAAASUVORK5CYII=
+</content>
+  </attachment>
+  <attachment>
+    <filename>fr.png</filename>
+    <filesize>545</filesize>
+    <author>XWiki.Admin</author>
+    <date>1350654789000</date>
+    <version>1.2</version>
+    <comment/>
+    <content>iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVHjaYiyeepkBBv79+Zfnx/f379+f
+P38CyT9//jAyMiq5GP77wvDnJ8MfoAIGBoAAYgGqC7STApL///3/9++/pCTv////Qdz/QO4/IMna
+0vf/z+9/v379//37bUUTQACBNDD8Z/j87fffvyAVX79+/Q8GQDbQeKA9fM+e/Pv18/+vnwzCIkBL
+AAKQOAY5AIAwCEv4/4PddNUm3ji0QJyxW3rgzE0iLfqDGr2oYuu0l54AYvnz5x9Q6d+/QPQfyAQq
+Ain9B3EOyG1A1UDj//36zfjr1y8GBoAAFI9BDgAwCMIw+P8Ho3GDO6XQ0l4MN8b2kUwYaLszqgKM
+/KHcDXwBxAJUD3TJ779A8h9Q5D8SAHoARP36+Rfo41+/mcA2AAQQy49ff0Cu//MPpAeI/0FdA1QN
+YYNVA/3wmwEYVgwMAAHE8uPHH5BqoD1//gJJLADoJKDS378Z//wFhhJAALF8A3rizz8uTmYg788f
+Jkj4QOKREQyYxSWBhjEC/fcXZANAALF8+/anbcHlHz9+ffvx58uPX9KckkCn/gby/wLd8uvHjx96
+k+cD1UGiGQgAAgwA7q17ZpsMdUQAAAAASUVORK5CYII=
+</content>
+  </attachment>
+  <attachment>
+    <filename>it.png</filename>
+    <filesize>420</filesize>
+    <author>XWiki.Admin</author>
+    <date>1350654789000</date>
+    <version>1.2</version>
+    <comment/>
+    <content>iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAE2SURBVHjaYmSYyMDwgwEE/jEw/GF4mvT0
+HyqQUlX9B5aEIIAAYmH4wlDtWg1SDwT//0lKSv7/D+T9/w+nYmL+//79/88fIPll0yaAAGJhYAGJ
+P/n69O+/v0CAUAcHt2////ULqJpRVhZoA0AAsQCtAZoMVP0HiP7+RlcNBEDVYA0Mv38DNQAEEMj8
+vwx//wCt/AdC/zEBkgagYoAAYgF6FGj277+///wlpAEoz8AAEEAgDX/BZv/69wuoB48GRrCTAAKI
+Cajh9//fv/6CVP/++wu7BrDxQFf/YWAACCCwk0BKf0MQdg1/gBqAPv0L9ANAALEAY+33vz+S3JIg
+b/z5C45CBkZGRgY4UFICKQUjoJMAAoiRoZSB4RMojkHx/YPhbNVZoM3AOISQQPUK9vaQOIYAgAAD
+AC5Wd4RRwnKfAAAAAElFTkSuQmCC
+</content>
+  </attachment>
+  <attachment>
+    <filename>ro.png</filename>
+    <filesize>495</filesize>
+    <author>XWiki.Admin</author>
+    <date>1350654789000</date>
+    <version>1.2</version>
+    <comment/>
+    <content>iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGBSURBVHjaYmTQPs7w6Q8DCDAxMLC8P2DO
+wcbA8I/hHxix/GD4pw3kIRBAALEwvPtT3aQIVP7vH+O//0yc0hWsrD8ZGP78//8HRH75/T/mz//f
+v///AZFfNm0CCCAWBhYGhv8MT17//vvv/99/TP/+PWJg+P7//28o+vP7/+1f/3/9AqpmlJUF2gAQ
+QCwgs/8zAFX/+QtCQIP///8FJn+DGP+Aqn9DNDD8/g3UABBALAx//oFV//vzhwGs4RfCeBAbRQPQ
+dIAAYmH49Q+o7vef/zANv5H0gBm/oE5i+PMHaANAAIE0/AUZ//8XUM9fBiQNYBLJSYxgJwEEEEjD
+778Mv/6A9Pz+wwB1BpoNYOOBbgAGHEAAsTD8BNL/gJqBrvr9lxFJA8QGsIY/QA1/Gf7+BfoBIICA
+ofQHqFRShBXkjb/MTEzSDAzfGBmB/gMa95uB5Q+D0h+QUjACOgkggBgZGLYyMPwCS4Nc+HxvMAsL
+w78/4HgFkh8Y/oVD4xgCAAIMACetb51Fz+5FAAAAAElFTkSuQmCC
+</content>
+  </attachment>
+  <attachment>
+    <filename>search.png</filename>
+    <filesize>361</filesize>
+    <author>XWiki.Admin</author>
+    <date>1350654789000</date>
+    <version>1.3</version>
+    <comment/>
+    <content>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAQtJREFUeNpi/P//PwMlgAmLWBQQrwDip0D8EIiXAnEgThNALkDC8//j
+BnPQ1IIxMicZpOrv378/du/e3R8UFBQSGRkZdvjw4alAsd9QQ0LwGbALpGLr1q3tQIdJATE7EHMA
+seyhQ4cmQQ1Yh8sAdqjtvz08PBTQvVlUVKQPNeA1ugEogcjIyPg/MDDwKboBvr6+MDE2fIF4AGTF
+nz9/EtHV/Pr1qxDqgi0EA/Hfv39fgFQCEPMDsSgQZwLFvj99+hQciOiWo0fLIjzR+B8auFL4DIC5
+BOTUj9BAA4V8FFQDskFg9YzEJmVgADP8R1IM5EsDuc9IMgDmCmRhJlIzDyPMJBifFrmRJAAQYABI
+l4BFtRdyJgAAAABJRU5ErkJggg==
+</content>
+  </attachment>
+  <object>
+    <class>
+      <name>XWiki.XWikiSkins</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <baseskin>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>baseskin</name>
+        <number>2</number>
+        <picker>0</picker>
+        <prettyName>Base Skin</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </baseskin>
+      <contentview.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>contentview.vm</name>
+        <number>12</number>
+        <picker>0</picker>
+        <prettyName>Content view</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </contentview.vm>
+      <docextra.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>docextra.vm</name>
+        <number>14</number>
+        <picker>0</picker>
+        <prettyName>Docextra</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </docextra.vm>
+      <edit.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>edit.vm</name>
+        <number>10</number>
+        <picker>0</picker>
+        <prettyName>Edit</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </edit.vm>
+      <footer.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>footer.vm</name>
+        <number>7</number>
+        <picker>0</picker>
+        <prettyName>Footer</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </footer.vm>
+      <global.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>global.vm</name>
+        <number>11</number>
+        <picker>0</picker>
+        <prettyName>Global</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </global.vm>
+      <header.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>header.vm</name>
+        <number>5</number>
+        <picker>0</picker>
+        <prettyName>Header</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </header.vm>
+      <logo>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>logo</name>
+        <number>3</number>
+        <picker>0</picker>
+        <prettyName>Logo</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </logo>
+      <menuview.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>menuview.vm</name>
+        <number>6</number>
+        <picker>0</picker>
+        <prettyName>Menu view</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </menuview.vm>
+      <name>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>Name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+      <shortcuts.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>shortcuts.vm</name>
+        <number>13</number>
+        <picker>0</picker>
+        <prettyName>Shortcuts</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </shortcuts.vm>
+      <style.css>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>style.css</name>
+        <number>4</number>
+        <picker>0</picker>
+        <prettyName>Style</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </style.css>
+      <view.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>view.vm</name>
+        <number>9</number>
+        <picker>0</picker>
+        <prettyName>View</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </view.vm>
+      <viewheader.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>viewheader.vm</name>
+        <number>8</number>
+        <picker>0</picker>
+        <prettyName>View Header</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </viewheader.vm>
+    </class>
+    <name>XWiki.LeiothrixSkin</name>
+    <number>0</number>
+    <className>XWiki.XWikiSkins</className>
+    <guid>ec9f4a42-a448-46f6-a68d-dee1dc0afd9d</guid>
+    <property>
+      <baseskin>colibri</baseskin>
+    </property>
+    <property>
+      <contentview.vm/>
+    </property>
+    <property>
+      <docextra.vm>#if ($hasGlobalAdmin)
+##
+## Document footer: tags, creation date, modification date
+##
+##
+&lt;div id="xdocFooter"&gt;
+  #template("documentTags.vm")
+  &lt;div id="xdocAuthors"&gt;
+    &lt;div class="xdocCreation"&gt; ## Creation
+      $msg.get('core.footer.creation', [$xwiki.getUserName($doc.creator), $xwiki.formatDate($doc.creationDate)])&lt;br/&gt;
+      #if($tdoc.realLanguage != $doc.realLanguage)
+        $msg.get('core.footer.translationCreation', [$tdoc.realLanguage, $xwiki.getUserName($tdoc.creator), $xwiki.formatDate($tdoc.creationDate)])&lt;br/&gt;
+      #end
+    &lt;/div&gt;
+##    &lt;div class="xdocLastModification"&gt; ## Last modification
+##      $msg.get('core.footer.modification', [$xwiki.getUserName($tdoc.author), $xwiki.formatDate($tdoc.date)])
+##    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+##
+##
+## More document related data: comments, attachments ...
+##
+&lt;div id="xwikidata" class="layoutsubsection"&gt;
+##
+## Build the list of documents extras to display, if it does not exist (default).
+## List format : ['ExtraAnchor', 'ExtraName', 'ExtraTabText', ExtraNumberOfItems, 'extratemplate.vm', 'keyboardShortcut']
+##
+#if (!$docextras)
+  #set ($docextras = [])
+  #if ($showcomments)
+    $xwiki.jsfx.use('uicomponents/viewers/comments.js', {'forceSkinAction': true, 'language': ${xcontext.language}})
+    $xwiki.ssfx.use('uicomponents/viewers/comments.css', true)
+    #set ($discard = $docextras.add(['Comments', 'comments', $msg.get('docextra.comments'), $doc.getObjects('XWiki.XWikiComments').size(), 'commentsinline.vm', $msg.get('core.shortcuts.view.comments')]))
+  #end
+  #if ($showannotations)
+    #if (!$annotationCount)
+      ## Annotation count is supposed to be defined in xwikivars.vm. If for a reason or another it is not
+      ## defined at this point, we tap into the standard annotation class, and do not load again the
+      ## config document. This however should not happen.
+      #set ($annotationCount = $doc.getObjects('AnnotationCode.AnnotationClass').size())
+    #end
+    #set ($discard = $docextras.add(['Annotations', 'annotations', $msg.get('docextra.annotations'), $annotationCount, 'annotationsinline.vm', $msg.get('core.shortcuts.view.annotations')]))
+  #end
+  #if ($showattachments)
+    $xwiki.jsfx.use('js/xwiki/viewers/attachments.js', {'forceSkinAction': true, 'language': ${xcontext.language}})
+    $xwiki.ssfx.use('js/xwiki/viewers/attachments.css', true)
+    #set ($discard = $docextras.add(['Attachments', 'attachments', $msg.get('docextra.attachments'), $doc.getAttachmentList().size(), 'attachmentsinline.vm', $msg.get('core.shortcuts.view.attachments')]))
+  #end
+  #if ($showhistory)
+    ## Pagination style
+    $xwiki.ssfx.use('uicomponents/pagination/pagination.css', true)##
+    #set ($discard = $docextras.add(['History', 'history', $msg.get('docextra.history'), -1, 'historyinline.vm', $msg.get('core.shortcuts.view.history')]))
+  #end
+  #if ($showinformation)
+    #set ($discard = $docextras.add(['Information', 'information', $msg.get('docextra.information'), -1, 'informationinline.vm', $msg.get('core.shortcuts.view.information')]))
+  #end
+#end
+##
+## Put anchors before the footer, otherwise the top of each section would be hidden by the floating topmenu
+##
+#if ($docextras.size() &gt; 0)
+&lt;div id="docextraanchors" class="invisible"&gt;
+#foreach ($docextra in $docextras)&lt;span id="${docextra.get(0)}anchor"&gt;&amp;nbsp;&lt;/span&gt;#end
+&lt;/div&gt;
+#end
+##
+## Display tabs
+##
+#if($docextras.size() &gt; 0)
+  &lt;div id="xwikidatacontents"&gt;
+    &lt;div class="floatcontainer" id="docExtraTabs"&gt;
+      &lt;ul class="xwikitabbar" id="docExtrasTabsUl"&gt;
+        #foreach($docextra in $docextras)
+          &lt;li id="${docextra.get(0)}tab"&gt;
+            &lt;a id="${docextra.get(0)}link" href="$doc.getURL('view', "viewer=${docextra.get(1)}")"&gt;
+              $docextra.get(2) #if($docextra.get(3) &gt;= 0) &lt;span class="itemCount"&gt;$msg.get('docextra.extranb', [$docextra.get(3)])&lt;/span&gt; #end
+            &lt;/a&gt;
+          &lt;/li&gt;
+        #end
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    ##
+    ## Display panes (AJAX placeholders)
+    ##
+    &lt;div id="docextrapanes"&gt;
+      #foreach($docextra in $docextras)
+        &lt;div id="${docextra.get(0)}pane" class="hidden empty"&gt;&lt;/div&gt;
+      #end
+    &lt;/div&gt;
+    ##
+    ## JavaScript code generation
+    ##
+    &lt;script type="text/javascript"&gt;
+      var hashviewer = self.document.location.hash.substring(1);
+      #foreach($docextra in $docextras)
+        #set ($extraAnchor = $listtool.get($docextra, 0))
+        #set ($extraName = $listtool.get($docextra, 1))
+        #set ($extraTemplate = $listtool.get($docextra, 4))
+        #set ($extraShortcut = $listtool.get($docextra, 5))
+        ##
+        ## Set the extra to load
+        ##
+        #if ($velocityCount == 1)
+          var extraInit = function(){ XWiki.displayDocExtra("${extraAnchor}", "${extraTemplate}", false) };
+        #end
+        if (hashviewer == "${extraAnchor}") {
+          var extraInit = function(){ XWiki.displayDocExtra("${extraAnchor}", "${extraTemplate}", true) };
+        }
+        ##
+        ## Replace tab link
+        ##
+        if ($("${extraAnchor}link") != null) {
+          $("${extraAnchor}link").href="#${extraAnchor}";
+          Event.observe($("${extraAnchor}link"), "click", function(){ XWiki.displayDocExtra("${extraAnchor}", "${extraTemplate}", false); }, false);
+        }
+        ##
+        ## Replace top menu link (if any)
+        ##
+        if ($("tmShow${extraAnchor}") != null) {
+          $("tmShow${extraAnchor}").href="#${extraAnchor}";
+          Event.observe($("tmShow${extraAnchor}"), "click", function(){ XWiki.displayDocExtra("${extraAnchor}", "${extraTemplate}", true); }, false);
+        }
+        ##
+        ## Replace shortcut link (if any)
+        ##
+        if ($("${extraName}shortcut") != null) {
+          $("${extraName}shortcut").down('a').href="#${extraName}";
+          Event.observe($("${extraName}shortcut"), "click", function(){ XWiki.displayDocExtra("${extraAnchor}", "${extraTemplate}", true); }, false);
+        }
+        ##
+        ## Override keyboard shortcut (if any)
+        ##
+        #if ($keyboardShortcutsEnabled &amp;&amp; "$!extraShortcut" != "")
+          shortcut.remove("$extraShortcut");
+          shortcut.add("$extraShortcut", function() { XWiki.displayDocExtra("${extraAnchor}", "${extraTemplate}", true); }, { 'type':'keypress', 'propagate':false, 'disable_in_input':true });
+        #end
+      #end
+      document.observe("dom:loaded", extraInit, false);
+    &lt;/script&gt;
+  &lt;/div&gt; ## xwikidatacontents
+#end
+&lt;/div&gt;  ## xwikidata
+
+#end</docextra.vm>
+    </property>
+    <property>
+      <edit.vm/>
+    </property>
+    <property>
+      <footer.vm/>
+    </property>
+    <property>
+      <global.vm>###
+### Global header
+###
+### The uppermost area of each page
+### Contains the company logo, links to global actions and the search facility
+###
+#if($isInServletMode) ## Visible only in a page
+&lt;div id="headerglobal" class="layoutsection"&gt;
+
+### PublicSite Skin add
+&lt;div id="headerContent"&gt; &lt;!-- Start #headerContent --&gt;
+### PublicSite Skin end
+
+#if($xcontext.action == "view")
+&lt;div class="minwidthb"&gt;&lt;/div&gt;
+#else
+&lt;div class="minwidthd"&gt;&lt;/div&gt;
+#end
+  &lt;div id="company"&gt;
+  &lt;div id="companylogo"&gt;
+    &lt;a href="$!xwiki.getURL('Main.WebHome')" title="Home" rel="home"&gt;
+#if("$!{themeDocFullName}" == '')
+  #set($themeDocFullName = "$!xwiki.getUserPreference('colorTheme')")
+#end
+#if($themeDocFullName == '')
+  #set($themeDocFullName = 'ColorThemes.DefaultColorTheme')
+#end
+#set($themeDoc = $xwiki.getDocument($themeDocFullName))
+#set($themeObj = $themeDoc.getObject('ColorThemes.ColorThemeClass'))
+#set($logoname = $themeObj.getProperty('logoImage').value)
+#if("$!{logoname}" != '')
+  #set($logourl = $themeDoc.getAttachmentURL($logoname))
+#else
+  #set($logoname = $xwiki.getSkinPreference('logo', 'logo.png'))
+  #set($logo = $!prefdoc.getAttachment($logoname))
+  #if(!$logo)
+    #set($logourl = $xwiki.getSkinFile($logoname))
+  #else
+    #set($logourl = $prefdoc.getAttachmentURL($logo.filename))
+  #end
+#end
+    &lt;img src="$!logourl" alt="Wiki Logo"/&gt;
+    &lt;/a&gt;
+  &lt;/div&gt; ## companylogo
+  &lt;/div&gt; ## company
+  &lt;div id="globallinks"&gt;
+#if($xwiki.isMultiLingual())
+  &lt;span class="glink" id="headerlanguages"&gt;
+  #set($defaultLanguage = "$!{doc.getDefaultLanguage()}")
+  #if($defaultLanguage == '')
+    #set($defaultLanguage = "$!{doc.getLanguage()}")
+  #end
+  #if($defaultLanguage == '')
+   #set($defaultLanguage = "en")
+  #end
+  &lt;a href="$!doc.getURL("view", "language=$defaultLanguage")" class="language-default#if($tdoc.realLanguage == $defaultLanguage || ($defaultLanguage == 'en' &amp;&amp; $tdoc.realLanguage == '')) language-current#end"&gt;&lt;img src="$xwiki.getSkinFile("${defaultLanguage}.png")" alt="${defaultLanguage}" /&gt;&lt;/a&gt;
+  #set ($wikiSettingsLanguages = $!xwiki.getXWikiPreference('languages').trim().split('\s*[,| ]\s*'))
+  #set ($hasLanguagesSet = $wikiSettingsLanguages.size() &gt; 1 || "$!wikiSettingsLanguages.get(0)" != '')
+  #foreach($lang in $doc.translationList)
+    #if(!$hasLanguagesSet || $wikiSettingsLanguages.contains($lang))
+      &lt;a href="$!doc.getURL("view", "language=$lang")" class="language-translation#if($tdoc.realLanguage == $lang) language-current#end"&gt;&lt;img src="$xwiki.getSkinFile("$!{lang}.png")" alt="$!{lang}" /&gt;&lt;/a&gt;
+    #end
+  #end
+  &lt;/span&gt;
+#end
+
+    &lt;form action="#if($xwiki.exists('Main.Search'))$xwiki.getURL('Main.Search')#else$xwiki.getURL('Main.WebSearch')#end"&gt;
+      &lt;div class="globalsearch"&gt;
+        &lt;label class="hidden" for="headerglobalsearchinput"&gt;$msg.get('panels.search.inputLabel')&lt;/label&gt;&lt;input class="globalsearchinput withTip" id="headerglobalsearchinput" type="text" name="text" value="$msg.get('panels.search.inputText')" size="15"/&gt;&lt;input type="submit" value="" /&gt;
+      &lt;/div&gt;
+    &lt;/form&gt;
+
+  &lt;/div&gt; ## globallinks
+  &lt;div class="clearfloats"&gt;&lt;/div&gt;
+
+### Leiothrix Skin add
+&lt;/div&gt; &lt;!-- End #headerContent --&gt;
+
+### Leiothrix Skin end
+### Leiothrix menu start
+&lt;style&gt;
+.space-${escapetool.xml($doc.space.replaceAll(' ', '_'))} .mainMenu${escapetool.xml($doc.space.replaceAll(' ', '_'))} { color: #FFFFFF; background: transparent  url("$xwiki.getSkinFile('active.png')") no-repeat center bottom; }
+&lt;/style&gt;
+#set($mainMenuDocument = $xwiki.getDocument('MenuCode.MenuWikiMacro'))
+$mainMenuDocument.getRenderedContent()
+### Leiothrix menu end
+&lt;/div&gt; ## headerglobal
+#end
+### TODO: Format the header for pdf output</global.vm>
+    </property>
+    <property>
+      <header.vm/>
+    </property>
+    <property>
+      <logo/>
+    </property>
+    <property>
+      <menuview.vm>#if ($isInServletMode &amp;&amp; $hasGlobalAdmin)## Visible only in a page
+&lt;div id="mainmenu" class="layoutsubsection actionmenu"&gt;
+&lt;div class="gradientfilterIE"&gt;&lt;/div&gt;
+&lt;div class="componentcontainer"&gt;
+&lt;strong id="xwikimenutitle" class="hidden"&gt;$msg.get('core.menu.main.title')&lt;/strong&gt;
+&lt;div class="rightmenu"&gt;
+#set ($workspaceManagerMainDocumentReference = $services.model.createDocumentReference($xcontext.mainWikiName, 'WorkspaceManager', 'WebHome'))
+#set ($isWorkspaceManagerAppInstalled = $xwiki.exists($workspaceManagerMainDocumentReference))
+#set ($isWorkspace = $services.workspace.isWorkspace($xcontext.database))
+#set ($isMainWikiUser = ($xcontext.mainWikiName == "$!{xcontext.userReference.wikiReference.name}"))
+##
+## User
+##
+#if (!$xcontext.action.startsWith('login'))
+  #if ($isGuest)
+    #set ($loginurl = $xwiki.getURL('XWiki.XWikiLogin', 'login', "xredirect=$escapetool.url($xwiki.relativeRequestURL)"))
+    #xwikitopmenuentry($!loginurl $!msg.get('login') 'tmLogin')
+  #else
+    #set ($logouturl = $xwiki.getURL('XWiki.XWikiLogout', 'logout', "xredirect=$escapetool.url($xwiki.relativeRequestURL)"))
+    #xwikitopmenuentry($!logouturl $!msg.get('logout') 'tmLogout')
+  #end
+#end
+#if ($isGuest &amp;&amp; $xwiki.hasAccessLevel('register', 'XWiki.XWikiPreferences'))
+  #set ($regurl = $xwiki.getURL('XWiki.Register', 'register'))
+  #xwikitopmenuentry($!regurl $!msg.get('core.register') 'tmRegister')
+#end
+##
+##
+#if (!$isGuest)
+#if ($isSuperAdmin)
+  #xwikitopmenuentry('#' $!msg.get('superadmin') 'tmUser' 'hasIcon')
+#else
+  #xwikitopmenuentrystart($xwiki.getURL($xcontext.user, 'view') "$msg.get('core.menu.type.profile')__SEPARATOR__$!xwiki.getUserName($xcontext.user, false)" 'tmUser' 'hasIcon')
+  #submenuitem($xwiki.getURL($xcontext.user, 'view') $msg.get('core.menu.profile') 'tmProfile', '')
+  #submenuitem($xwiki.getURL($xcontext.user, 'view', 'category=preferences') $msg.get('core.menu.userPreferences') 'tmUserPreferences', '')
+  #if ($hasWatch)
+    #submenuitem($xwiki.getURL($xcontext.user, 'view', 'category=watchlist') $msg.get('core.menu.watchlist.management') 'tmWatchlistManager', '')
+    #submenuitem($xwiki.getURL($xcontext.user, 'view', 'category=network') $msg.get('core.menu.network') 'tmUserNetwork', '')
+  #end
+  #if ($isWorkspaceManagerAppInstalled &amp;&amp; $isMainWikiUser)
+    #submenuitem($xwiki.getURL($xcontext.user, 'view', 'category=workspaces') $msg.get('workspacemanager.menu.user.workspaces') 'tmUserWorkspaces', '')
+  #end
+  #submenuitem($xwiki.getURL($xcontext.user, 'view', 'category=dashboard') $msg.get('core.menu.userDashboard') 'tmUserDashboard', '')
+  #xwikitopmenuentryend()
+#end
+#end
+&lt;/div&gt;
+&lt;div class="leftmenu"&gt;
+##
+## Create
+##
+## Note: In order to know if the user has the right to create a workspace we compute a name that doesn't exist
+#set ($hasCreateWorkspace = $isWorkspaceManagerAppInstalled &amp;&amp; $isMainWikiUser &amp;&amp;
+  $services.workspace.canCreateWorkspace($xcontext.user, "workspace0reserved0for0internal0xwiki0usage${mathtool.random(0, 999)}"))
+#set ($displayCreateSubmenu = $hasCreateSpace || $hasCreatePage || $hasComment || $hasCreateWorkspace)
+#if ($displayCreateSubmenu)
+  #xwikitopmenuentrystart('' $msg.get('core.menu.create') 'tmCreate' 'hasIcon')
+  #set ($hasPreviousMenuSection = false)
+  #if ($hasCreateWorkspace)
+    #set ($createWorkspaceDocumentReference = $services.model.createDocumentReference('xwiki', 'WorkspaceManager', 'CreateNewWorkspace'))
+    #submenuitem("$xwiki.getURL($createWorkspaceDocumentReference)" $msg.get('workspacemanager.menu.create') 'tmCreateWorkspace', '')
+    #set ($hasPreviousMenuSection = true)
+  #end
+  #if ($hasCreateSpace)
+    #if ($hasPreviousMenuSection)
+      #submenuseparator()
+    #end
+    #submenuitem("$doc.getURL('create', 'tocreate=space')" $msg.get('core.menu.create.space') 'tmCreateSpace', '')
+    #set ($hasPreviousMenuSection = true)
+  #end
+  #if ($hasCreatePage)
+    #if ($hasPreviousMenuSection)
+      #submenuseparator()
+    #end
+    #submenuitem("$doc.getURL('create')" $msg.get('core.menu.create.page') 'tmCreatePage', '')
+    ## Only display the Office Importer menu action if the Office Importer application is installed
+    #set ($officeImporterMainDocument = $xwiki.getDocument('XWiki.OfficeImporter'))
+    #if ("$!{officeImporterMainDocument.isNew()}" == 'false')
+      #submenuitem($officeImporterMainDocument.getURL('view', "&amp;amp;parent=$!{escapetool.url($doc.fullName)}") $msg.get('core.menu.create.pageFromOffice') 'tmCreatePageFromOffice', '')
+    #end
+    #set ($hasPreviousMenuSection = true)
+  #end
+  #if ((($hasComment &amp;&amp; $showcomments) || ($hasEdit &amp;&amp; $showattachments)) &amp;&amp; $hasPreviousMenuSection)
+    #submenuseparator()
+  #end
+  #if ($hasComment &amp;&amp; $showcomments)
+    #submenuitem("$doc.getURL('view', 'viewer=comments')" $msg.get('core.menu.create.comment') 'tmCreateComment', '')
+    &lt;script type="text/javascript"&gt;
+      //&lt;![CDATA[
+        document.observe('xwiki:dom:loaded', function() {
+          $('tmCreateComment').observe('click', function(event) {
+            event.stop();
+            XWiki.displayDocExtra('Comments', 'commentsinline.vm', true);
+            return false;
+          });
+        });
+      //]]&gt;
+    &lt;/script&gt;
+    #set ($hasPreviousMenuSection = true)
+  #end
+  #if ($hasEdit &amp;&amp; $showattachments)
+    #submenuitem("$doc.getURL('view', 'viewer=attachments')" $msg.get('core.menu.create.attachment') 'tmCreateAttachment', '')
+    &lt;script type="text/javascript"&gt;
+      //&lt;![CDATA[
+        document.observe('xwiki:dom:loaded', function() {
+          $('tmCreateAttachment').observe('click', function(event) {
+            event.stop();
+            XWiki.displayDocExtra('Attachments', 'attachmentsinline.vm', true);
+            return false;
+          });
+        });
+      //]]&gt;
+    &lt;/script&gt;
+    #set ($hasPreviousMenuSection = true)
+  #end
+  #xwikitopmenuentryend()
+#end
+##
+## Main Wiki
+##
+#set ($hasMainWikiAdmin = $xwiki.hasAccessLevel('admin', $xcontext.user, "${xcontext.mainWikiName}:XWiki.XWikiPreferences"))
+#set ($mainWikiAllDocsDocumentReference = $services.model.createDocumentReference($xcontext.mainWikiName, 'Main', 'AllDocs'))
+#set ($displayMainWikiSubmenu = $hasWatch || $hasMainWikiAdmin || $xwiki.exists($mainWikiAllDocsDocumentReference))
+#if ($isWorkspaceManagerAppInstalled &amp;&amp; !$xcontext.isMainWiki() &amp;&amp; ($isMainWikiUser || ($isGuest &amp;&amp; $isWorkspace)))
+  #set ($mainWikiHomeDocumentReference = $services.model.createDocumentReference($xcontext.mainWikiName, 'Main', 'WebHome'))
+  #if (!$displayMainWikiSubmenu)
+    #xwikitopmenuentry($xwiki.getURL($mainWikiHomeDocumentReference) 'Main' 'tmMainWiki' 'hasIcon')
+  #else
+    #xwikitopmenuentrystart($xwiki.getURL($mainWikiHomeDocumentReference) 'Main' 'tmMainWiki' 'hasIcon')
+      #set ($hasPreviousMenuSection = false)
+      #if ($hasMainWikiAdmin)
+        #set ($mainWikiAdministrationDocumentReference = $services.model.createDocumentReference($xcontext.mainWikiName, 'XWiki', 'XWikiPreferences'))
+        #submenuitem("$xwiki.getURL($mainWikiAdministrationDocumentReference, 'admin', '')" $msg.get('workspacemanager.menu.mainwiki.admin') 'tmAdminMainWiki' '')
+        #set ($hasPreviousMenuSection = true)
+      #end
+      #if($hasPreviousMenuSection)
+        #submenuseparator()
+      #end
+      #submenuitem("$xwiki.getURL($workspaceManagerMainDocumentReference)" $msg.get('workspacemanager.menu.workspace.index') 'tmWorkspaceIndex' '')
+      #if ($xwiki.exists($mainWikiAllDocsDocumentReference))
+        #submenuitem("$xwiki.getURL($mainWikiAllDocsDocumentReference)" $msg.get('core.menu.wiki.documentindex') 'tmMainWikiDocumentIndex' '')
+        #set ($hasPreviousMenuSection = true)
+      #end
+    #xwikitopmenuentryend()
+  #end
+  #xwikitopmenuseparator()
+#end
+##
+## Wiki
+##
+#set ($isAdminAppInstalled = $xwiki.exists('XWiki.AdminSheet'))
+#set ($canDeleteWorkspace = $isWorkspaceManagerAppInstalled &amp;&amp; $services.workspace.canDeleteWorkspace($xcontext.user, $xcontext.database))
+#set ($displayWorkspaceDirectoryMenuEntry = $isWorkspaceManagerAppInstalled &amp;&amp; $isMainWikiUser &amp;&amp; $xcontext.isMainWiki())
+#set ($displayWikiSubmenu = $hasWatch || $hasGlobalAdmin || $xwiki.exists('Main.AllDocs') || $displayWorkspaceDirectoryMenuEntry || $canDeleteWorkspace)
+#set ($wikiEntryText = $msg.get('core.menu.type.wiki'))
+#set ($wikiEntryId = 'tmWiki')
+#if ($isWorkspaceManagerAppInstalled)
+  #if ($xcontext.isMainWiki() &amp;&amp; $xwiki.isVirtualMode())
+    #set ($wikiEntryId = 'tmMainWiki')
+  #elseif ($isWorkspace)
+    #set ($wikiEntryId = 'tmWorkspace')
+  #end
+#end
+#if ($xwiki.isVirtualMode() &amp;&amp; $services.wikimanager)
+  #set ($wikiName = $services.wikimanager.getWikiDocument($xcontext.getDatabase()).getWikiPrettyName())
+  #if ("$!wikiName.trim()" == '')
+    #set ($wikiName = $xcontext.getDatabase())
+  #end
+  #set ($wikiEntryText = "${wikiEntryText}__SEPARATOR__${wikiName}")
+#end
+#if (!$displayWikiSubmenu)
+  #xwikitopmenuentry($xwiki.getURL('Main.WebHome', 'view') $wikiEntryText $wikiEntryId 'hasIcon')
+#else
+  #xwikitopmenuentrystart($xwiki.getURL('Main.WebHome', 'view') $wikiEntryText $wikiEntryId 'hasIcon')
+  #set ($hasPreviousMenuSection = false)
+  #if ($hasWatch)
+    #set ($watchClasses = '')
+    #set ($unwatchClasses = 'hidden')
+    #if ($xwiki.watchlist.isWikiWatched())
+      #set ($watchClasses = 'hidden')
+      #set ($unwatchClasses = '')
+    #end
+    #submenuitem("$doc.getURL('view', 'xpage=watch&amp;amp;do=addwiki')&amp;amp;xredirect=$escapetool.url($doc.getURL())" $msg.get('core.menu.watchlist.add.wiki') 'tmWatchWiki', $watchClasses)
+    #submenuitem("$doc.getURL('view', 'xpage=watch&amp;amp;do=removewiki')&amp;amp;xredirect=$escapetool.url($doc.getURL())" $msg.get('core.menu.watchlist.remove.wiki') 'tmUnwatchWiki', $unwatchClasses)
+    #set ($hasPreviousMenuSection = true)
+  #end
+  #if ($hasGlobalAdmin)
+    #set ($adminwikiaction = $!xwiki.getURL('XWiki.XWikiPreferences', 'admin'))
+    #set ($importaction = $!xwiki.getURL('XWiki.XWikiPreferences', 'import'))
+    #if ($isAdminAppInstalled)
+      #submenuitem($adminwikiaction $msg.get('core.menu.admin.wiki') 'tmAdminWiki', '')
+    #else
+      #submenuitem($importaction $msg.get('core.menu.admin') 'tmAdminWiki' '')
+    #end
+    #set ($hasPreviousMenuSection = true)
+  #end
+  #if ($hasPreviousMenuSection &amp;&amp; ($displayWorkspaceDirectoryMenuEntry || $xwiki.exists('Main.AllDocs')))
+    #submenuseparator()
+  #end
+  #if ($displayWorkspaceDirectoryMenuEntry)
+    #submenuitem("$xwiki.getURL($workspaceManagerMainDocumentReference)" $msg.get('workspacemanager.menu.workspace.index') 'tmWorkspaceIndex' '')
+    #set ($hasPreviousMenuSection = true)
+  #end
+  #if ($xwiki.exists('Main.AllDocs'))
+    #submenuitem("$xwiki.getURL('Main.AllDocs')" $msg.get('core.menu.wiki.documentindex') 'tmWikiDocumentIndex' '')
+    #set ($hasPreviousMenuSection = true)
+  #end
+  #if ($canDeleteWorkspace)
+    #if ($hasPreviousMenuSection)
+      #submenuseparator()
+    #end
+    #set ($deleteWorkspacePageReference = $services.model.createDocumentReference($xcontext.mainWikiName, 'WorkspaceManager', 'DeleteWorkspaceCode'))
+    #set ($deleteUrl = $xwiki.getURL($deleteWorkspacePageReference, 'view', "workspaceId=${xcontext.database}&amp;workspaceName=$wikiName"))
+    #submenuitem($deleteUrl $msg.get('workspacemanager.menu.workspace.delete') 'tmDeleteWorkspace' '')
+    #set ($hasPreviousMenuSection = true)
+  #end
+  #xwikitopmenuentryend()
+#end
+##
+## Space
+##
+#set ($displaySpaceSubmenu = $hasWatch || $hasSpaceAdmin || $xwiki.exists('Main.SpaceIndex'))
+#xwikitopmenuseparator()
+#if (!$displaySpaceSubmenu)
+  #xwikitopmenuentry($xwiki.getURL("${doc.space}.WebHome", 'view') "$msg.get('core.menu.type.space')__SEPARATOR__$!{escapetool.xml($doc.space)}" 'tmSpace' 'hasIcon')
+#else
+  #xwikitopmenuentrystart($xwiki.getURL("${doc.space}.WebHome", 'view') "$msg.get('core.menu.type.space')__SEPARATOR__$!{escapetool.xml($doc.space)}" 'tmSpace' 'hasIcon')
+  #set ($hasPreviousMenuSection = false)
+  #if ($hasWatch)
+    #set ($watchClasses = '')
+    #set ($unwatchClasses = 'hidden')
+    #if ($xwiki.watchlist.isSpaceWatched())
+      #set ($watchClasses = 'hidden')
+      #set ($unwatchClasses = '')
+    #end
+    #submenuitem("$doc.getURL('view', 'xpage=watch&amp;amp;do=addspace')&amp;amp;xredirect=$escapetool.url($doc.getURL())" $msg.get('core.menu.watchlist.add.space', [$escapetool.xml($doc.space)]) 'tmWatchSpace', $watchClasses)
+    #submenuitem("$doc.getURL('view', 'xpage=watch&amp;amp;do=removespace')&amp;amp;xredirect=$escapetool.url($doc.getURL())" $msg.get('core.menu.watchlist.remove.space') 'tmUnwatchSpace', $unwatchClasses)
+    #set ($hasPreviousMenuSection = true)
+  #end
+  #if ($hasSpaceAdmin)
+    #set ($adminspaceaction = $!xwiki.getURL("${doc.space}.WebPreferences", 'admin'))
+    #submenuitem($adminspaceaction $msg.get('core.menu.admin.space', [$escapetool.xml($doc.space)]) 'tmAdminSpace')
+    #set ($hasPreviousMenuSection = true)
+  #end
+  #if ($xwiki.exists('Main.SpaceIndex'))
+    #if ($hasPreviousMenuSection)
+      #submenuseparator()
+    #end
+    #set ($spaceIndexUrl = $xwiki.getURL('Main.SpaceIndex', 'view',"space=${escapetool.url($doc.space)}"))
+    #submenuitem($spaceIndexUrl $msg.get('core.menu.space.documentindex') 'tmSpaceDocumentIndex' '')
+    #set ($hasPreviousMenuSection = true)
+  #end
+  #if ($hasSpaceAdmin)
+    #if ($hasPreviousMenuSection)
+      #submenuseparator()
+    #end
+    #set ($spaceDeleteUrl = $!xwiki.getURL("${doc.space}.WebHome", 'deletespace'))
+    #submenuitem($spaceDeleteUrl $msg.get('core.menu.space.delete') 'tmSpaceDelete' '')
+    #set ($hasPreviousMenuSection = true)
+  #end
+  #xwikitopmenuentryend()
+#end
+##
+## Page
+##
+#set ($canView = !$doc.isNew() &amp;&amp; $xwiki.checkAccess($doc.fullName, 'view'))
+#set ($canCopy = $canView &amp;&amp; $hasCreatePage)
+#set ($canDelete = !$doc.isNew() &amp;&amp; $xwiki.checkAccess($doc.fullName, 'delete'))
+#set ($canShare = $canView &amp;&amp; $xwiki.exists('XWiki.SharePage') &amp;&amp; !$isGuest)
+#set ($canWatch = !$doc.isNew() &amp;&amp; $hasWatch)
+#set ($displayPageSubmenu = $canWatch || $canShare || $canCopy || $canDelete)
+#xwikitopmenuseparator()
+#if (!$displayPageSubmenu)
+  #xwikitopmenuentry($xwiki.getURL("${doc.name}", 'view') "$msg.get('core.menu.type.page')__SEPARATOR__$!{escapetool.xml($doc.name)}" 'tmPage' 'hasIcon')
+#else
+  #xwikitopmenuentrystart($xwiki.getURL("${doc.name}", 'view') "$msg.get('core.menu.type.page')__SEPARATOR__$!{escapetool.xml($doc.name)}" 'tmPage' 'hasIcon')
+  #if ($canWatch)
+    #set ($watchClasses = 'hasIcon')
+    #set ($unwatchClasses = 'hasIcon hidden')
+    #if ($xwiki.watchlist.isDocumentWatched())
+      #set ($watchClasses = 'hasIcon hidden')
+      #set ($unwatchClasses = 'hasIcon')
+    #end
+    #submenuitem("$doc.getURL('view', 'xpage=watch&amp;amp;do=adddocument')&amp;amp;xredirect=$escapetool.url($doc.getURL())" $msg.get('core.menu.watchlist.add.page') 'tmWatchDocument' $watchClasses)
+    #submenuitem("$doc.getURL('view', 'xpage=watch&amp;amp;do=removedocument')&amp;amp;xredirect=$escapetool.url($doc.getURL())" $msg.get('core.menu.watchlist.remove.page') 'tmUnwatchDocument' $unwatchClasses)
+  #end
+  #if ($canShare)
+    #submenuitem($doc.getURL('view', 'viewer=share') $msg.get('core.menu.share') 'tmActionShare', '')
+    $xwiki.jsx.use('XWiki.SharePage')
+    $xwiki.ssx.use('XWiki.SharePage')
+  #end
+  #if (($canWatch || $canShare) &amp;&amp; ($canCopy || $canDelete))
+    #submenuseparator()
+  #end
+  #if ($canCopy)
+    #submenuitem($doc.getURL('view', 'xpage=copy') $msg.get('core.menu.copy') 'tmActionCopy', '')
+  #end
+  #if ($canDelete)
+    #submenuitem($doc.getURL('view', 'xpage=rename&amp;amp;step=1') $msg.get('core.menu.rename') 'tmActionRename', '')
+    #submenuitem($doc.getURL('delete', $!languageparams) $msg.get('core.menu.delete') 'tmActionDelete', '')
+  #end
+  #xwikitopmenuentryend()
+  #if ($canDelete &amp;&amp; $keyboardShortcutsEnabled)
+    &lt;script type="text/javascript"&gt;
+      //&lt;![CDATA[
+      shortcut.add("$msg.get('core.shortcuts.view.delete')",function() { location.href=$('tmActionDelete').href; }, { 'type':'keypress', 'propagate':false, 'disable_in_input':true });
+      shortcut.add("$msg.get('core.shortcuts.view.rename')",function() { location.href=$('tmActionRename').href; }, { 'type':'keypress', 'propagate':false, 'disable_in_input':true });
+      //]]&gt;
+    &lt;/script&gt;
+  #end
+#end
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+#end</menuview.vm>
+    </property>
+    <property>
+      <name>PublicSite Skin</name>
+    </property>
+    <property>
+      <shortcuts.vm>#if ($hasGlobalAdmin)
+##
+##
+## Build the list of documents extras to display, if it does not exist (default).
+## List format : ["ExtraAnchor",  "ExtraTabText", numberOfItems]
+##
+#if (!$docextralinks &amp;&amp; !$docextras)
+  #set($docextralinks = [])
+  #if($xcontext.action == 'view' &amp;&amp; $viewer != 'content')
+    #set ($discard = $docextralinks.add(['content', $msg.get('core.links.content'), -1]))
+  #end
+  #if($viewer != 'comments' &amp;&amp; $showcomments)
+    #set ($discard = $docextralinks.add(["comments", $msg.get("docextra.comments"), $doc.getObjects("XWiki.XWikiComments").size()]))
+  #end
+  #if($showannotations)
+    #if(!$annotationCount)
+      ## Annotation count is supposed to be defined in xwikivars.vm. If for a reason or another it is not
+      ## defined at this point, we tap into the standard annotation class, and do not load again the 
+      ## config document. This however should not happen.
+      #set($annotationCount = $doc.getObjects('AnnotationCode.AnnotationClass').size())
+    #end
+    #set ($discard = $docextralinks.add(["annotations", $msg.get("docextra.annotations"), $annotationCount]))
+  #end
+  #if($viewer != 'attachments' &amp;&amp; $showattachments)
+    #set ($discard = $docextralinks.add(["attachments", $msg.get("docextra.attachments"), $doc.getAttachmentList().size()]))
+  #end
+  #if($viewer != 'history' &amp;&amp; $showhistory)
+    #set ($discard = $docextralinks.add(["history", $msg.get("docextra.history"), -1]))
+  #end
+  #if($viewer != 'information' &amp;&amp; $showinformation)
+    #set ($discard = $docextralinks.add(["information", $msg.get("docextra.information"), -1]))
+  #end
+#end
+##
+##
+##  Display the document title, modification date, and shortcuts to comments/attachments...
+##
+  &lt;div id="document-info"&gt;
+    &lt;div class="xdocLastModification"&gt; ## Last modification
+      $msg.get('core.footer.modification', [$xwiki.getUserName($tdoc.author), $xwiki.formatDate($tdoc.date)])
+    &lt;/div&gt;
+    &lt;div&gt;
+      #foreach($docextralink in $docextralinks)
+        #set ($extraAnchor = $docextralink.get(0))
+        #set ($extraText = $docextralink.get(1))
+        #set ($extraCount = $docextralink.get(2))
+        #if($velocityCount &gt; 1) &lt;span class="separator"&gt;&amp;#183;&lt;/span&gt; #end
+        &lt;span id="${escapetool.xml(${extraAnchor})}shortcut"&gt;&lt;a href="$doc.getURL('view', "viewer=$!{escapetool.url(${extraAnchor})}")"&gt;${escapetool.xml(${extraText})}&lt;/a&gt;#if($extraCount != -1) &lt;span class="itemCount"&gt;(${escapetool.xml(${extraCount})})&lt;/span&gt;#end&lt;/span&gt;
+      #end
+    &lt;/div&gt;
+    &lt;div class="clearfloats"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+#end</shortcuts.vm>
+    </property>
+    <property>
+      <style.css>{{velocity}}
+
+@import "$xwiki.getSkinFile('css/microformats.css')";
+@import "$xwiki.getSkinFile('colibri.css', true)#if ("$!{request.colorTheme}" != '')?colorTheme=${request.colorTheme}#end";
+
+#template('colorThemeInit.vm')
+
+#contentcontainer, #edit, #alleditcontent, #xwikieditorinner { width: 980px; margin: 0 auto !important; background-color: #FFFFFF; border-left: 1px solid #DDDDDD; border-right: 1px solid #DDDDDD; border-bottom: 1px solid #DDDDDD; }
+
+#footerglobal { width: 980px; margin: 10px auto !important;}
+
+/* Header */
+#headerglobal { margin-bottom: 0 !important; }
+
+#headerContent { width: 980px; margin: 0 auto; }
+#company { float: left; padding: 20px 0; }
+
+#headerlanguages a { background: transparent !important; }
+#headerlanguages a.language-current { background: white !important; }
+
+/* Menu */
+#mainMenu { width: 960px; margin: 0 auto; }
+#mainMenuContainer { background-color: $theme.titleColor; }
+.mainMenuSocial { float: right; }
+.menu-type-horizontal { height: 40px !important; background-color: $theme.titleColor !important; }
+.menu-type-horizontal ul li { font-size: 15px; height: 40px; margin: 0 30px 0 0; background-color: transparent !important; }
+.menu-type-horizontal ul li a { line-height: 40px; padding: 0 10px !important; font-weight: bold; text-decoration: none; color: #d6d6d6; }
+.menu-type-horizontal ul li a:hover { color: #ffffff }
+
+.mainMenuSocial li { height: 35px !important; padding: 5px 0 0 0; margin: 0 !important; }
+
+/* Search bar */
+#globallinks { width: 270px; padding: 8px 0; }
+#headerglobalsearchinput { margin: 0 10px 0 0; padding: 6px 10px; width: 200px; }
+.globalsearch input[type=submit], .globalsearch input[type=submit]:hover { width: 46px; height: 27px; line-height: normal; margin: 0; background: $theme.titleColor url("$xwiki.getSkinFile('search.png')") no-repeat center center; text-indent: -9999px; border: none;}
+
+/* Rights Panel */
+h1.xwikipaneltitle { border: none !important; border-bottom: 1px dotted $theme.panelTextColor !important; }
+.collapsed h1.xwikipaneltitle { border-radius: 0 !important; }
+.xwikipanelcontents { border: none !important; padding: 5px 5px 10px !important; }
+.xwikipaneltitle { padding: 5px 10px 5px 5px !important; }
+
+/* Main container */
+#contentcontainer{ -webkit-border-radius: 0 10px 10px; -moz-border-radius: 0 10px 10px; border-radius: 0 0 10px 10px; }
+#mainContentArea { padding: 0; border: none; }
+
+#document-title h1 { border-bottom: none !important; }
+.dashboard { clear: both; margin-top: 40px; }
+h1.gadget-title { padding: 0 0 2px 0; margin: 0; font-size: 1.2em; }
+.gadget-content { text-align: justify; }
+#contentcontainerinner, #xwikieditor { padding-top: 20px; }
+#hierarchy { padding-top: 5px !important; }
+
+#xdocFooter { border: none !important; }
+
+{{/velocity}}</style.css>
+    </property>
+    <property>
+      <view.vm>###
+### Main "view" template
+###
+### General wrapper for view actions
+###
+#if ($request.getParameter("raw").equals("1"))
+  #template("code.vm")
+#else
+  #template("startpage.vm")
+  #if("$!viewer" == '')
+    #set($viewer = $request.getParameter('viewer'))
+  #end
+  #if("$!viewer" == '')
+    #set($viewer = 'content')
+  #end
+  &lt;div class="main layoutsubsection"&gt;
+  #if(!$isGuest)
+   #if($displayContentMenu)
+     &lt;div id="contentmenu" class="actionmenu"&gt;
+     #template("contentmenu.vm")
+     &lt;/div&gt;
+   #end
+  #end
+  &lt;div id="mainContentArea"&gt;
+  #template("hierarchy.vm")
+  #if($viewer == 'content')
+    #template("contentview.vm")
+  #else
+    #template("${viewer}.vm")
+  #end
+  &lt;div class="clearfloats"&gt;&lt;/div&gt;
+  &lt;/div&gt;## mainContentArea
+  #if($viewer == 'content' &amp;&amp; $displayDocExtra)
+    #template("docextra.vm")
+  #end
+  &lt;/div&gt;## main
+  #template("endpage.vm")
+#end
+</view.vm>
+    </property>
+    <property>
+      <viewheader.vm/>
+    </property>
+  </object>
+  <content/>
+</xwikidoc>
