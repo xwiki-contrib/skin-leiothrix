@@ -50,6 +50,8 @@
     <xwiki.clirr.skip>true</xwiki.clirr.skip>
     <!-- The extension's category -->
     <xwiki.extension.category>skin</xwiki.extension.category>
+    <!-- Old names of this module used for retro compatibility when resolving dependencies of old extensions -->
+    <xwiki.extension.features>nlemoine:publicsite-skin</xwiki.extension.features>
   </properties>
   <build>
     <!-- Needed to add support for the XAR packaging -->
